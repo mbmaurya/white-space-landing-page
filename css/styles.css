@@ -42,6 +42,10 @@ body {
   justify-content: space-between;
 }
 
+.col-50 {
+  width: 50%;
+}
+
 .heading {
   font-size: 72px;
   font-weight: 700;
@@ -56,11 +60,19 @@ body {
 }
 
 .heading span::after {
-  content: url("../images/underline.svg");
+  content: "";
   position: absolute;
   left: 0;
-  bottom: -30px;
+  right: 0;
   z-index: -1;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url(../images/underline.svg);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .description {
@@ -160,10 +172,7 @@ header .login-btn::after {
 .pm-section {
   background-image: url("../images/pm-section-bg.svg");
   background-repeat: no-repeat;
-}
-
-.pm-section .col {
-  width: 50%;
+  background-position-y: bottom;
 }
 
 .pm-section img {
@@ -171,5 +180,14 @@ header .login-btn::after {
 }
 
 .pm-section .flex-box {
+  gap: 60px;
+}
+
+/* work together section starts here */
+.wt-section img {
+  width: 100%;
+}
+
+.wt-section .flex-box {
   gap: 60px;
 }
