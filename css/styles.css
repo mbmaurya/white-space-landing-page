@@ -98,6 +98,11 @@ header {
   padding: 29px 0px;
 }
 
+.logo {
+  width: auto;
+  height: auto;
+}
+
 header .right-col {
   gap: 32px;
 }
