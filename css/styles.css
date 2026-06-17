@@ -5,6 +5,10 @@ body {
   font-style: normal;
 }
 
+img {
+  width: 100%;
+}
+
 /* universal classes - applies to multiple elements */
 .container {
   width: 1280px;
@@ -40,6 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 60px;
 }
 
 .col-50 {
@@ -47,6 +52,8 @@ body {
 }
 
 .heading {
+  position: relative;
+  z-index: 1;
   font-size: 72px;
   font-weight: 700;
   line-height: normal;
@@ -164,10 +171,6 @@ header .login-btn::after {
   width: 60%;
 }
 
-.hero-section .col-right img {
-  width: 100%;
-}
-
 /* project management section starts here */
 .pm-section {
   background-image: url("../images/pm-section-bg.svg");
@@ -175,19 +178,19 @@ header .login-btn::after {
   background-position-y: bottom;
 }
 
-.pm-section img {
-  width: 100%;
-}
-
-.pm-section .flex-box {
-  gap: 60px;
-}
-
 /* work together section starts here */
-.wt-section img {
-  width: 100%;
+
+/* extension section starts here */
+.ext-section {
+  background-color: #043873;
 }
 
-.wt-section .flex-box {
-  gap: 60px;
+.ext-section .heading {
+  color: #ffffff;
 }
+
+.ext-section .description {
+  color: #ffffff;
+}
+
+/* customize section starts here */
