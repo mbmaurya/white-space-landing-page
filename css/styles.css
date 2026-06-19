@@ -199,3 +199,152 @@ header .login-btn::after {
 }
 
 /* customize section starts here */
+
+/* plan section starts here */
+.plan-section .headline {
+  text-align: center;
+  max-width: 979px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.cards .card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+  padding: 40px 44px;
+}
+
+.cards .card .package {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: #212529;
+  margin-bottom: 0;
+}
+
+.cards .card .price {
+  font-size: 36px;
+  line-height: normal;
+  font-weight: 700;
+  letter-spacing: -2%;
+  color: #212529;
+  margin: 0;
+}
+
+.cards .card .description {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  letter-spacing: -2%;
+  color: #212529;
+  margin: 0;
+}
+
+.cards .card .features {
+  list-style-type: none;
+  /* list-style-image: url("../images/circular-tick.svg"); */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.cards .card .features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 19px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -2%;
+  font-weight: 400;
+  color: #212529;
+}
+
+.cards .card .features li::before {
+  content: url("../images/circular-tick.svg");
+  position: relative;
+  top: 2px;
+}
+
+.cards .card .cta {
+  display: inline-block;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+  line-height: normal;
+  letter-spacing: -2%;
+}
+
+.cards .highlight-card {
+  background-color: #043873;
+  border: none;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.cards .highlight-card .package {
+  color: #ffffff;
+}
+
+.cards .highlight-card .price {
+  color: #ffe492;
+}
+
+.cards .highlight-card .description,
+.cards .highlight-card .features li {
+  color: #ffffff;
+}
+
+.cards .highlight-card .features li::before {
+  content: url("../images/circular-tick-highlight.svg");
+}
+
+.cards .highlight-card .cta {
+  border: none;
+  background-color: #4f9cf9;
+  color: #ffffff;
+}
+
+/* task key section starts here */
+.task-key-section {
+  background-color: #043873;
+  position: relative;
+}
+
+.task-key-section .bg-img {
+  position: absolute;
+  width: 428px;
+  top: -159px;
+  left: -50px;
+}
+
+.task-key-section .content {
+  text-align: center;
+  max-width: 1064px;
+  margin: 0 auto;
+}
+
+.task-key-section .content .heading,
+.task-key-section .content .description {
+  color: #ffffff;
+}
+
+.task-key-section .content .heading span::after {
+  background-image: url("../images/underline-blue.svg");
+}
