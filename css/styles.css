@@ -47,8 +47,16 @@ img {
   gap: 60px;
 }
 
+.col-40 {
+  width: 40%;
+}
+
 .col-50 {
   width: 50%;
+}
+
+.col-60 {
+  width: 60%;
 }
 
 .heading {
@@ -347,4 +355,56 @@ header .login-btn::after {
 
 .task-key-section .content .heading span::after {
   background-image: url("../images/underline-blue.svg");
+}
+
+/* data section starts here */
+.data-section .flex-box {
+  gap: 0;
+}
+
+/* sponsors section starts here */
+.sponsors-section h2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sponsors-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* favourite apps starts here */
+.fav-apps-section {
+  background-color: #043873;
+  background-image: url("../images/hero-section-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.fav-apps-section .heading,
+.fav-apps-section .description {
+  color: #ffffff;
+}
+
+/* testimonial section starts here */
+.testimonial-section h2 {
+  text-align: center;
+}
+
+.testimonial {
+  padding: 16px 0px;
+}
+
+.testimonial .slide {
+  background-color: #ffffff;
+  padding: 60px 40px;
+  -webkit-box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
