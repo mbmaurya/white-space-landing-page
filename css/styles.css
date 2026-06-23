@@ -47,6 +47,10 @@ img {
   gap: 60px;
 }
 
+.col-30 {
+  width: 30%;
+}
+
 .col-40 {
   width: 40%;
 }
@@ -57,6 +61,10 @@ img {
 
 .col-60 {
   width: 60%;
+}
+
+.col-70 {
+  width: 70%;
 }
 
 .heading {
@@ -90,7 +98,8 @@ img {
   background-repeat: no-repeat;
 }
 
-.description {
+.description,
+.comment {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -403,8 +412,65 @@ header .login-btn::after {
 .testimonial .slide {
   background-color: #ffffff;
   padding: 60px 40px;
-  -webkit-box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.testimonial .slick-track {
+  display: flex;
+  gap: 32px;
+}
+
+.testimonial .slide img {
+  width: auto;
+}
+
+.testimonial .slide .comment {
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+.testimonial .slide hr {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-color: #212529;
+}
+
+.testimonial .slide .author {
+  margin-top: 60px;
+  display: flex;
+  gap: 42px;
+}
+
+.testimonial .slide .author .author-name {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #212529;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+}
+
+.testimonial .slide .author .designation {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #212529;
+  margin-bottom: 0;
+  letter-spacing: -2%;
+}
+
+.testimonial .slick-dots li {
+  margin: 0px 6px;
+}
+
+.testimonial .slick-dots li button {
+  background-color: #4f9cf9;
+  border-radius: 10px;
+}
+
+.testimonial .slick-dots li button:hover,
+.testimonial .slick-dots li.slick-active button {
+  background-color: #043873;
 }
