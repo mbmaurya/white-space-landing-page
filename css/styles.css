@@ -474,3 +474,41 @@ header .login-btn::after {
 .testimonial .slick-dots li.slick-active button {
   background-color: #043873;
 }
+
+/* try whitespace section starts here */
+.try-whitespace-section {
+  background-color: #043873;
+}
+
+.try-whitespace-section .col {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.try-whitespace-section .heading {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.try-whitespace-section .description {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.try-whitespace-section .button {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.try-whitespace-section .app-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
