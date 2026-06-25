@@ -109,6 +109,16 @@ img {
   margin-bottom: 60px;
 }
 
+.navbar-active {
+  display: block !important;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
 /* header styles start here */
 
 header {
@@ -162,6 +172,10 @@ header .login-btn {
 
 header .login-btn::after {
   content: none;
+}
+
+.navbar-button {
+  display: none;
 }
 
 /* hero section starts here */
@@ -601,4 +615,57 @@ footer .lower-footer .col ul li a {
 
 footer .lower-footer .col:last-child ul {
   gap: 32px;
+}
+
+/* tablet styles start here */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0px 32px;
+    overflow: hidden;
+  }
+
+  /* header starts here  */
+  header {
+    padding: 16px 0px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigation.navbar-active {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #2e4e73;
+    height: 100%;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 32px;
+  }
+
+  header .cta {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px 0px;
+  }
+
+  header .cta .button {
+    width: 250px;
+    text-align: center;
+  }
+
+  .navbar-button {
+    display: block;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+  }
 }

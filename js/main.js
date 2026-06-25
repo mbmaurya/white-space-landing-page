@@ -5,4 +5,8 @@ $(document).ready(function () {
     slidesToScroll: 3,
     dots: true,
   });
+
+  $(".navbar-button").click(function () {
+    $(".navigation").toggleClass("navbar-active");
+  });
 });
