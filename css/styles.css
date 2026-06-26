@@ -119,6 +119,14 @@ img {
   gap: 32px;
 }
 
+.tab-none {
+  display: block;
+}
+
+.tab-block {
+  display: none;
+}
+
 /* header styles start here */
 
 header {
@@ -626,6 +634,42 @@ footer .lower-footer .col:last-child ul {
     overflow: hidden;
   }
 
+  .tab-none {
+    display: none;
+  }
+
+  .tab-block {
+    display: block;
+  }
+
+  .section {
+    padding: 100px 0px;
+  }
+
+  .hero-section .flex-box,
+  .pm-section .flex-box,
+  .wt-section .flex-box,
+  .ext-section .flex-box,
+  .custom-section .flex-box {
+    flex-direction: column;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+
+  .hero-section,
+  .pm-section,
+  .wt-section,
+  .ext-section,
+  .custom-section {
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 54px;
+  }
+
   /* header starts here  */
   header {
     padding: 16px 0px;
@@ -667,5 +711,23 @@ footer .lower-footer .col:last-child ul {
     background: transparent;
     padding: 0;
     margin: 0;
+  }
+
+  /* hero section starts here */
+
+  .hero-section .col-left,
+  .hero-section .col-right {
+    width: 100%;
+  }
+
+  .hero-section .col-left h2 {
+    font-size: 54px;
+    text-align: center;
+  }
+
+  /* pm section starts here */
+  .pm-section {
+    background-position-y: top;
+    background-position-x: -30%;
   }
 }
