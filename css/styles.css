@@ -730,4 +730,32 @@ footer .lower-footer .col:last-child ul {
     background-position-y: top;
     background-position-x: -30%;
   }
+
+  /* plan section starts here */
+  .cards .highlight-card {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .cards.slick-dotted.slick-slider {
+    margin-bottom: 60px;
+  }
+
+  .cards .slick-dots {
+    bottom: -60px;
+  }
+
+  .cards .slick-dots li {
+    margin: 0px 6px;
+  }
+
+  .cards .slick-dots li button {
+    background-color: #4f9cf9;
+    border-radius: 10px;
+  }
+
+  .cards .slick-dots li button:hover,
+  .cards .slick-dots li.slick-active button {
+    background-color: #043873;
+  }
 }
