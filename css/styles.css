@@ -644,26 +644,17 @@ footer .lower-footer .col:last-child ul {
 
   .section {
     padding: 100px 0px;
+    text-align: center;
   }
 
-  .hero-section .flex-box,
-  .pm-section .flex-box,
-  .wt-section .flex-box,
-  .ext-section .flex-box,
-  .custom-section .flex-box {
+  .flex-box {
     flex-direction: column;
   }
 
-  .col-50 {
+  .col-40,
+  .col-50,
+  .col-60 {
     width: 100%;
-  }
-
-  .hero-section,
-  .pm-section,
-  .wt-section,
-  .ext-section,
-  .custom-section {
-    text-align: center;
   }
 
   .heading {
@@ -671,6 +662,11 @@ footer .lower-footer .col:last-child ul {
   }
 
   /* header starts here  */
+
+  header .flex-box {
+    flex-direction: row;
+  }
+
   header {
     padding: 16px 0px;
   }
@@ -757,5 +753,38 @@ footer .lower-footer .col:last-child ul {
   .cards .slick-dots li button:hover,
   .cards .slick-dots li.slick-active button {
     background-color: #043873;
+  }
+
+  /* task key section starts here  */
+  .task-key-section .content {
+    text-align: left;
+  }
+
+  .task-key-section .bg-img {
+    top: -110px;
+    left: -110px;
+  }
+
+  /* data section starts here */
+  .data-section .col-40 {
+    margin-bottom: 100px;
+  }
+
+  /* sponsers section starts here  */
+  .sponsors-section ul {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  /* fav app section starts here */
+
+  .fav-apps-section {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -150px 100px;
+  }
+
+  .fav-apps-section img {
+    margin-bottom: 100px;
   }
 }

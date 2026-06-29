@@ -22,6 +22,14 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 3,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   $(".navbar-button").click(function () {
