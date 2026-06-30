@@ -787,4 +787,43 @@ footer .lower-footer .col:last-child ul {
   .fav-apps-section img {
     margin-bottom: 100px;
   }
+
+  /* try whitespace section starts here */
+
+  .try-whitespace-section .col {
+    text-align: left;
+    margin: 0;
+  }
+
+  .try-whitespace-section .app-links {
+    justify-content: flex-start;
+  }
+
+  /* footer starts here */
+  footer {
+    padding-top: 0px;
+  }
+
+  footer .upper-footer {
+    border-bottom: 0;
+  }
+
+  footer .upper-footer .col,
+  footer .lower-footer .col {
+    width: 100%;
+  }
+
+  footer .upper-footer .col img {
+    width: auto;
+  }
+
+  footer .lower-footer .flex-box {
+    gap: 0;
+  }
+
+  footer .lower-footer .col:first-child {
+    border-bottom: 1px solid #2e4e73;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
 }
